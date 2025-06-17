@@ -45,6 +45,7 @@ import Navbar from "./components/navbar";
 
 import "./css/card.scss";
 import "./css/globals.scss";
+import dynamic from "next/dynamic";
 
 // ✅ Dynamically import ScrollToTop to disable SSR
 const ScrollToTop = dynamic(() => import("./components/helper/scroll-to-top"), {
