@@ -7,7 +7,8 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '../../../assets/lottie/study.json';
 import AnimationLottie from "../../helper/animation-lottie";
 // import GlowCard from "../../helper/glow-card";
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic';
+// ✅ Dynamic import to avoid SSR issues
 const GlowCard = dynamic(() => import("../../helper/glow-card"), {
   ssr: false,
 });
