@@ -12,15 +12,7 @@ import dynamic from "next/dynamic";
 const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), {
   ssr: false,
 });
-// import dynamic from "next/dynamic";
 
-const AnimationLottie = dynamic(() => import("./components/helper/AnimationLottie"), {
-  ssr: false,
-});
-
-// import GlowCard from "../../helper/glow-card";
-import dynamic from 'next/dynamic';
-// ✅ Dynamic import to avoid SSR issues
 const GlowCard = dynamic(() => import("../../helper/glow-card"), {
   ssr: false,
 });
