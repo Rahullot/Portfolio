@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Rahul Lot",
-  profile: '/Passport_Size_Photo_white_bg.jpg',
+  profile: '/favicon.ico',
   designation: "Graduate",
   description: "I’m Rahul Lot, a motivated B.Sc. CS student and self-driven programmer with a passion for Linux, cloud, and system optimization. Skilled in networking, Python, and full-stack development (React.js, Node.js, MongoDB), I’ve also worked with tools like Docker, Hadoop, and Hive. I’m enthusiastic about DevOps, automation, and solving real-world problems through efficient backend logic.",
   email: 'lotrahul20@gmail.com',
